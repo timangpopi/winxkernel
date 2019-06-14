@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=WinX Kernel Pie Redmi 5A  By @zantrash
+kernel.string=winx Kernel Pie/Oreo Redmi 5A  By @zantrash
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
