@@ -1,7 +1,13 @@
-kind: pipeline name: perf kornol riva:
+kind: pipeline 
+name: perf
+
+platform:
   os: linux
-  arch: amd64 clone:
-  depth: 1 steps:
+  arch: amd64
+clone:
+  depth: 1 
+
+steps:
   - name: Perf
     image: ubuntu:latest
     environment:
